@@ -9,3 +9,142 @@ ol,ul{
 a{
     text-decoration: none;
 }
+/* task 1 */
+
+.task1{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    
+}
+
+.task1 .block{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.task1 .block-black{
+    background-color: black;
+}
+.task1 .block-white{
+    background-color: white;
+}
+.task1 .block1{
+    width: 400px;
+    height: 400px;
+}
+.task1 .block2{
+    width: 380px;
+    height: 380px;
+}
+.task1 .block3{
+    width: 360px;
+    height: 360px;
+}
+.task1 .block4{
+    width: 340px;
+    height: 340px;
+}
+.task1 .block5{
+    width: 320px;
+    height: 320px;
+}
+.task1 .block6{
+    width: 300px;
+    height: 300px;
+}
+.task1 .block7{
+    width: 280px;
+    height: 280px;
+}
+.task1 .block8{
+    width: 260px;
+    height: 260px;
+}
+.task1 .block9{
+    width: 240px;
+    height: 240px;
+}
+
+/* task 2 */
+
+.task2{
+    position: absolute;
+    top: 200px;
+    left: 700px;
+}
+.task2 .main-block{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(188, 97, 97);
+}
+.task2 .big-block1,.big-block2{
+    background-color: rgb(64, 181, 226);
+}
+.task2 .big-block1{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 55px;
+    left: 30px;
+}
+.task2 .small-block1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(231, 236, 78);
+    position: relative;
+    top: 150px;
+    left: 250px;
+}
+
+.task2 .big-block2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 300px;
+    left: 700px;
+}
+.task2 .small-block2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(90, 206, 146);
+    position: relative;
+    left: 25%;
+    top: 25%;
+}
+/* task 3 */
+
+.task3 {
+    position: absolute;
+    top: 700px;
+    left: 25%;
+}
+.task3 .main-block{
+    width: 900px;
+    height: 200px;
+    background-color: rgb(55, 184, 55);
+}
+.task3 .block{
+    width: 150px;
+    height: 50%;
+    background-color: yellow;
+}
+.task3 .block1{
+    position: relative;
+    left: 10%;
+}
+.task3 .block2{
+    position: relative;
+    left: 55%;
+    top: -50%;
+}
+.task3 .block3{
+    position: relative;
+    left: 30%;
+    top: -50%;
+}
+.task3 .block4{
+    position: relative;
+    left: 80%;
+    top: -100%;
+}
