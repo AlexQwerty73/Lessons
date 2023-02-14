@@ -106,3 +106,31 @@ a {
     background: #f80000;
 }
 
+.wrap{
+    height: 300px;
+}
+.wrap .block-nth{
+    width: 100px;
+    height: 100px;
+    margin: 0 15px;
+    background-color: aqua;
+    display: inline-block;
+}
+/* .wrap .block-nth:first-child{
+    margin-left: 0;
+}
+.wrap .block-nth:last-child{
+    margin-right: 0;
+} */
+/* .wrap .block-nth:nth-child(odd){
+    width: 150px;
+} */
+/* .wrap .block-nth:nth-child(even){
+    width: 50px;
+} */
+/* .wrap .block-nth:nth-child(2n){
+    width: 150px;
+} */
+.wrap .block-nth:nth-child(3){
+    height: 150px;
+}
