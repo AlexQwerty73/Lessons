@@ -9,3 +9,17 @@ ol,ul{
 a{
     text-decoration: none;
 }
+.wrap{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: ;
+    /* align-self: center; */
+    flex-wrap: wrap-reverse;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
