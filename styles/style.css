@@ -9,3 +9,49 @@ ol,ul{
 a{
     text-decoration: none;
 }
+
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    position: relative;
+    perspective: 700px;
+}
+.one p ,
+.two p{
+    font-size: 50px;
+    font-weight: 700;
+    color: aliceblue;
+}
+.one,.two{
+    width: 250px;
+    height: 250px;
+    background: rgba(51, 102, 153, 0.46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transition: 2s;
+}
+
+.one{
+    z-index: 100;
+    background: url('../images/one.jpg') no-repeat center/cover;
+}
+.two{
+    transform: rotateY(180deg);
+    background: url('../images/two.jpg') no-repeat center/cover;
+}
+.item:hover .one{
+    transform: rotateY(180deg);
+}
+.item:hover .two{
+    transform: rotateY(360deg);
+}
