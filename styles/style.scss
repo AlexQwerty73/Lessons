@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.wrap{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 3fr 200px 10fr;
+    grid-template-rows: repeat(3, 50px);
+    
+    gap: 5px;
+
+    .item{
+        // width: 100px;
+        // height: 100px;
+        background-color: palegreen;
+    }
+}
